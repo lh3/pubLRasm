@@ -8,15 +8,18 @@ their input data if possible. "Stable links" refer to links provided by NCBI,
 Zenodo, FigShare, etc that data owners cannot change. FTP links or links to
 S3/GCP buckets are not stable.
 
-## CHM13: Homozygous Human
+## Assemblies
+
+### CHM13: homozygous human
 
 |Data                |Assembler        |Version |Reference                    |Link|
 |:-------------------|:----------------|-------:|:----------------------------|:---|
 |HiFi                |[Flye][Flye]     |2.8     |[Kolmogorov et al][Flye-pmid]|[Download](https://zenodo.org/record/3965035/files/flye.v28.chm13.hifi.30x.fasta.gz?download=1)|
 |ONT                 |[Flye][Flye]     |2.8     |[Kolmogorov et al][Flye-pmid]|[Download](https://zenodo.org/record/3965035/files/flye.v28.chm13.ont.120x.fasta.gz?download=1)|
+|CLR                 |Falcon           |        |                             |[Download](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/983/455/GCA_000983455.1_CHM13_Draft_Assembly/GCA_000983455.1_CHM13_Draft_Assembly_genomic.fna.gz)|
 |[ONT][CHM13-ont2]+SR|[WengenD][Wengen]|0.2     |[Genova et al][Wengan-pmid]  |[Download](https://zenodo.org/record/3779515/files/CHM13.WenganD.ILL_UL_R3.fa.gz?download=1)   |
 
-## HG00733: Diploid Human
+### HG00733: heterozygous human
 
 |Data                  |Assembler        |Version|Type     |Reference|Link|
 |:---------------------|:----------------|------:|:--------|:--------|:---|
