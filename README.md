@@ -37,7 +37,7 @@ links to S3/GCP buckets are not stable.
 |[HiFi][HG00733-hifi]+[SRpat][HG00733-sr-pat]+[SRmat][HG00733-sr-mat]|[hifiasm][hifiasm]|0.12|Phased|Cheng et al|[hap1](https://zenodo.org/record/4393631/files/HG00733.HiFi.hifiasm-0.12.hap1.fa.gz?download=1), [hap2](https://zenodo.org/record/4393631/files/HG00733.HiFi.hifiasm-0.12.hap2.fa.gz?download=1)|
 |[HiFi][HG00733-hifi]  |[Peregrine][pg]  |0.1.6.1|Primary  |Cheng et al                            |[Zenodo](https://zenodo.org/record/4393631/files/HG00733.HiFi.Peregrine-0.1.6.1.pri.fa.gz?download=1)|
 |[HiFi][HG00733-hifi]+[SRpat][HG00733-sr-pat]+[SRmat][HG00733-sr-mat]|[Peregrine][pg]|0.1.6.1|Phased|Cheng et al|[hap1](https://zenodo.org/record/4393631/files/HG00733.HiFi.Peregrine-0.1.6.1.hap1.fa.gz?download=1), [hap2](https://zenodo.org/record/4393631/files/HG00733.HiFi.Peregrine-0.1.6.1.hap2.fa.gz?download=1)|
-|[HiFi][HG00733-hifi]+HiC|[DipAsm][da]+[Peregrine][pg]||Phased|[Garg et al][da-pmid]               |[hap1](https://zenodo.org/record/4393631/files/HG00733.HiFi_HiC.DipAsm_Peregrine.hap1.fa.gz?download=1), [hap2](https://zenodo.org/record/4393631/files/HG00733.HiFi_HiC.DipAsm_Peregrine.hap2.fa.gz?download=1)|
+|[HiFi][HG00733-hifi]+[HiC][HG00733-hic]|[DipAsm][da]+[Peregrine][pg]||Phased|[Garg et al][da-pmid]|[hap1](https://zenodo.org/record/4393631/files/HG00733.HiFi_HiC.DipAsm_Peregrine.hap1.fa.gz?download=1), [hap2](https://zenodo.org/record/4393631/files/HG00733.HiFi_HiC.DipAsm_Peregrine.hap2.fa.gz?download=1)|
 |[HiFi][HG00733-hifi]+StrandSeq|[PGAS][pgas]+[Peregrine][pg]||Phased   |[Porubsky et al][ss-pmid]  |[hap1](https://zenodo.org/record/4393631/files/HG00733.HiFi_StrandSeq.PGAS_Peregrine.hap1.fa.gz?download=1), [hap2](https://zenodo.org/record/4393631/files/HG00733.HiFi_StrandSeq.PGAS_Peregrine.hap2.fa.gz?download=1)|
 |ONT                   |[Canu][canu]+[Helen][helen]    |1.8+0.1  |Collapsed|[Shafin et al][sh-pmid]|[Zenodo](https://zenodo.org/record/4393631/files/HG00733.ONT.Canu-1.8_Helen.pri.fa.gz?download=1)|
 |ONT                   |[Flye][Flye]+[Helen][helen]    |2.4.2+0.1|Collapsed|[Shafin et al][sh-pmid]|[Zenodo](https://zenodo.org/record/4393631/files/HG00733.ONT.Flye-2.4.2_Helen.pri.fa.gz?download=1)|
@@ -68,3 +68,4 @@ links to S3/GCP buckets are not stable.
 [HG00733-hifi]: https://www.ebi.ac.uk/ena/data/view/ERX3831682
 [HG00733-sr-pat]: https://www.ebi.ac.uk/ena/data/view/ERR3241754
 [HG00733-sr-mat]: https://www.ebi.ac.uk/ena/data/view/ERR3241755
+[HG00733-hic]: https://www.ncbi.nlm.nih.gov/sra/?term=SRR11347815
