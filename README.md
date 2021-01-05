@@ -10,18 +10,24 @@ links to S3/GCP buckets are not stable.
 
 ## Assemblies
 
+In the following tables, the "Source" column indicates the authors who ran the
+assembler and produced the assembly. Sometimes they may not be the original
+developer of the assembler. If you use an assembly in the table, please cite
+the assembler in use and the source publication.
+
 ### CHM13: homozygous human
 
 |Data                |Assembler        |Version |Source                            |Link|
 |:-------------------|:----------------|-------:|:---------------------------------|:---|
-|HiFi                |[Flye][Flye]     |2.8     |Dev website                       |[Zenodo](https://zenodo.org/record/3965035/files/flye.v28.chm13.hifi.30x.fasta.gz?download=1)|
+|HiFi                |[Flye][Flye]     |2.8     |[Dev website][Flye]               |[Zenodo](https://zenodo.org/record/3965035/files/flye.v28.chm13.hifi.30x.fasta.gz?download=1)|
 |[HiFi][CHM13-hifi1] |Falcon           |1.8.1   |[Cheng et al][ha-pub]             |[Zenodo](https://zenodo.org/record/4393631/files/CHM13.HiFi.Falcon-1.8.1.fa.gz?download=1)|
 |[HiFi][CHM13-hifi1] |[HiCanu][canu]   |2.1     |[Cheng et al][ha-pub]             |[Zenodo](https://zenodo.org/record/4393631/files/CHM13.HiFi.HiCanu-2.1.fa.gz?download=1)|
 |[HiFi][CHM13-hifi1] |[hifiasm][hifiasm]|0.12   |[Cheng et al][ha-pub]             |[Zenodo](https://zenodo.org/record/4393631/files/CHM13.HiFi.hifiasm-0.12.fa.gz?download=1)|
 |[HiFi][CHM13-hifi1] |[Peregrine][pg]  |0.1.6.1 |[Cheng et al][ha-pub]             |[Zenodo](https://zenodo.org/record/4393631/files/CHM13.HiFi.Peregrine-0.1.6.1.fa.gz?download=1)|
+|[HiFi][CHM13-hifi1] |pg\_asm          |0.3.5   |[Dev website](https://zenodo.org/record/4415731)|[Zenodo](https://zenodo.org/record/4415731/files/chm13_asm_ctgs_2020_0104.fa.gz?download=1)|
 |ONT                 |[Canu][canu]+[Helen][helen]|1.8+0.1|[Shafin et al][sh-pmid]  |[Zenodo](https://zenodo.org/record/4393631/files/CHM13.ONT.Canu-1.8_Helen.fa.gz?download=1)|
 |ONT                 |[Flye][Flye]+[Helen][helen]|2.4.2+0.1|[Shafin et al][sh-pmid]|[Zenodo](https://zenodo.org/record/4393631/files/CHM13.ONT.Flye-2.4.2_Helen.fa.gz?download=1)|
-|ONT                 |[Flye][Flye]     |2.8     |Dev website                       |[Zenodo](https://zenodo.org/record/3965035/files/flye.v28.chm13.ont.120x.fasta.gz?download=1)|
+|ONT                 |[Flye][Flye]     |2.8     |[Dev website][Flye]               |[Zenodo](https://zenodo.org/record/3965035/files/flye.v28.chm13.ont.120x.fasta.gz?download=1)|
 |ONT                 |[Shasta][shasta]+[Helen][helen]|0.1.0|[Shafin et al][sh-pmid]|[Zenodo](https://zenodo.org/record/4393631/files/CHM13.ONT.Shasta-0.1.0_Helen.fa.gz?download=1)|
 |[ONT][CHM13-ont2]+SR|[WenganD][Wengan]|0.2     |[Di Genova et al][Wengan-pmid]    |[Zenodo](https://zenodo.org/record/3779515/files/CHM13.WenganD.ILL_UL_R3.fa.gz?download=1)   |
 |CLR                 |Falcon           |        |                                  |[NCBI](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/983/455/GCA_000983455.1_CHM13_Draft_Assembly/GCA_000983455.1_CHM13_Draft_Assembly_genomic.fna.gz)|
